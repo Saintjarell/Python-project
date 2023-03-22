@@ -8,11 +8,21 @@ while i<6:
     i+=1
 
 # continue statement
-a = 20
+a = 2
 
-while a>10:
-    print(a)
-    if a==15:
+while a<10:
+    a += 1
+    if a==6:
         continue
-    a-=1
+    print(a)
+
+
+a = 79
+
+while a<84:
+    a +=1
+    if a==83:
+        continue
+    print(a)
+
 
